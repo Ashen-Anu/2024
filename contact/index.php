@@ -1,0 +1,254 @@
+<?php require_once('../config/config.php') ?>
+<!DOCTYPE html>
+<html lang="en">
+
+
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+
+<head>
+    <?php require_once('../includes/seo.php') ?>
+    <?php require_once('../includes/header_sources.php') ?>
+</head>
+
+<body class="custom-cursor">
+    <style>
+        .current_contact {
+            color: red !important;
+        }
+    </style>
+    <div class="custom-cursor__cursor"></div>
+    <div class="custom-cursor__cursor-two"></div>
+
+
+
+
+
+    <div class="preloader">
+        <div class="preloader__image"></div>
+    </div>
+    <!-- /.preloader -->
+
+
+    <div class="page-wrapper">
+        <!-- Start Header -->
+        <?php require_once('../includes/header.php') ?>
+        <!-- End HEader -->
+
+        <div class="stricky-header stricked-menu main-menu">
+            <div class="sticky-header__content"></div><!-- /.sticky-header__content -->
+        </div><!-- /.stricky-header -->
+
+
+        <!--Page Header Start-->
+        <section class="page-header">
+            <div class="page-header-bg"
+                style="background-image: url(<?php echo HTTP_PATH ?>assets/images/main/header/contacts-header.webp)">
+            </div>
+            <div class="container">
+                <div class="page-header__inner">
+                    <h2>Contact Us</h2>
+                    <ul class="thm-breadcrumb list-unstyled">
+                        <li><a href="<?php echo HTTP_PATH ?>">Home</a></li>
+                        <li><span>/</span></li>
+                        <li style="color: #ae0001;">Contact</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!--Page Header End-->
+
+        <!-- Contact Start -->
+
+
+        <section class="contact-page">
+            <div class="container">
+                <div class="section-title text-center">
+                    <span class="section-title__tagline">contact us</span>
+                    <h2 class="section-title__title">Feel free to get in touch <br> with Swarna Constructions</h2>
+                </div>
+                <div class="row">
+                    <!--Contact Page Single Start-->
+                    <div class="col-xl-6 col-lg-6 wow fadeInUp" data-wow-delay="200ms">
+                        <div class="contact-page__single">
+                            <div class="contact-page__title-box">
+                                <div class="contact-page__title">
+                                    <span>Email</span>
+                                    <h3>Send email</h3>
+                                </div>
+                                <div class="contact-page__icon">
+                                    <span class="icon-envelope-back"></span>
+                                </div>
+                            </div>
+                            <p class="contact-page__text">
+                                <a href="mailto:info@swarnaconstructions.lk">info@swarnaconstructions.lk</a>
+                                <a href="mailto:swarnaconstructions.sl@gmail.com">swarnaconstructions.sl@gmail.com</a>
+                            </p>
+                        </div>
+                    </div>
+                    <!--Contact Page Single End-->
+                    <!--Contact Page Single Start-->
+                    <div class="col-xl-6 col-lg-6 wow fadeInUp" data-wow-delay="300ms">
+                        <div class="contact-page__single">
+                            <div class="contact-page__title-box">
+                                <div class="contact-page__title">
+                                    <span>Call</span>
+                                    <h3>Call Us now</h3>
+                                </div>
+                                <div class="contact-page__icon contact-page__icon--last">
+                                    <span class="icon-call"></span>
+                                </div>
+                            </div>
+                            <p class="contact-page__text">
+                                <a href="tel:+94718709961">+94 71 870 9961</a>
+                                <a href="tel:+94718709962">+94 71 870 9962</a>
+                            </p>
+                        </div>
+                    </div>
+                    <!--Contact Page Single End-->
+                </div>
+            </div>
+        </section>
+        <!--Contact Page End-->
+
+        <!--Contact One Start-->
+        <section class="contact-one">
+            <div class="container">
+                <div class="contact-one__form-box">
+                    <form action="#" class="contact-one__form contact-form-validated" novalidate="novalidate">
+                        <div class="row">
+                            <div class="col-xl-6">
+                                <div class="contact-form__input-box">
+                                    <input type="text" placeholder="Your name" name="name">
+                                </div>
+                            </div>
+                            <div class="col-xl-6">
+                                <div class="contact-form__input-box">
+                                    <input type="email" placeholder="Email address" name="email">
+                                </div>
+                            </div>
+                            <div class="col-xl-6">
+                                <div class="contact-form__input-box">
+                                    <input type="text" placeholder="Phone number" name="phone">
+                                </div>
+                            </div>
+                            <div class="col-xl-6">
+                                <div class="contact-form__input-box">
+                                    <input type="text" placeholder="Subject" name="subject">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xl-12">
+                                <div class="contact-form__input-box text-message-box">
+                                    <textarea name="message" placeholder="Write message"></textarea>
+                                </div>
+                                <div class="contact-form__btn-box">
+                                    <button type="submit" class="thm-btn contact-form__btn">Send a message</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <!--Contact One End-->
+
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3968.3383344414005!2d80.53173201076228!3d5.94802932955786!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae13f28eaedaf3f%3A0xda8041f5d2cf219c!2sSwarna%20Constructions!5e0!3m2!1sen!2slk!4v1725947575005!5m2!1sen!2slk"
+            width="100%" height="650" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+        <!-- Contact End  -->
+
+        <!--Site Footer Start-->
+        <?php require_once('../includes/footer.php') ?>
+        <!--Site Footer End-->
+
+
+    </div><!-- /.page-wrapper -->
+
+
+    <div class="mobile-nav__wrapper">
+        <div class="mobile-nav__overlay mobile-nav__toggler"></div>
+        <!-- /.mobile-nav__overlay -->
+        <div class="mobile-nav__content">
+            <span class="mobile-nav__close mobile-nav__toggler"><i class="fa fa-times"></i></span>
+
+            <div class="logo-box">
+                <a href="index.html" aria-label="logo image"><img
+                        src="<?php echo HTTP_PATH ?>assets/images/resources/logo-1.png" width="143" alt="" /></a>
+            </div>
+            <!-- /.logo-box -->
+            <div class="mobile-nav__container"></div>
+            <!-- /.mobile-nav__container -->
+
+            <ul class="mobile-nav__contact list-unstyled">
+                <li>
+                    <i class="fa fa-envelope"></i>
+                    <a href="mailto:needhelp@packageName__.com">needhelp@jetly.com</a>
+                </li>
+                <li>
+                    <i class="fa fa-phone-alt"></i>
+                    <a href="tel:666-888-0000">666 888 0000</a>
+                </li>
+            </ul><!-- /.mobile-nav__contact -->
+            <div class="mobile-nav__top">
+                <div class="mobile-nav__social">
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-facebook-square"></a>
+                    <a href="#" class="fab fa-pinterest-p"></a>
+                    <a href="#" class="fab fa-instagram"></a>
+                </div><!-- /.mobile-nav__social -->
+            </div><!-- /.mobile-nav__top -->
+
+
+
+        </div>
+        <!-- /.mobile-nav__content -->
+    </div>
+    <!-- /.mobile-nav__wrapper -->
+
+    <div class="search-popup">
+        <div class="search-popup__overlay search-toggler"></div>
+        <!-- /.search-popup__overlay -->
+        <div class="search-popup__content">
+            <form action="#">
+                <label for="search" class="sr-only">search here</label><!-- /.sr-only -->
+                <input type="text" id="search" placeholder="Search Here..." />
+                <button type="submit" aria-label="search submit" class="thm-btn">
+                    <i class="icon-magnifying-glass"></i>
+                </button>
+            </form>
+        </div>
+        <!-- /.search-popup__content -->
+    </div>
+    <!-- /.search-popup -->
+
+    <a href="#" data-target="html" class="scroll-to-target scroll-to-top"><i class="icon-right-arrow"></i></a>
+    <script>
+        let count = 0;
+        const stopCount = 321;
+        const speed = 14; // Adjust speed as needed
+
+        function updateCounter() {
+            const counter = document.getElementById('counter');
+            if (count < stopCount) {
+                count++;
+                counter.innerHTML = count;
+                setTimeout(updateCounter, speed);
+            } else if (count >= stopCount) {
+                count += 1; // Increment further after reaching stopCount
+                counter.innerHTML = count + "+";
+            }
+        }
+
+        updateCounter();
+    </script>
+
+    <?php require_once('../includes/footer_sources.php') ?>
+</body>
+
+
+<!-- Sparkit 2024 -->
+
+</html>
